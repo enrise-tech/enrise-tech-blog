@@ -5,9 +5,9 @@ import {schemaTypes} from './schemas'
 
 export default defineConfig({
   name: 'default',
-  title: 'enrise-tech-blog',
+  title: 'nextjs-14-blog',
 
-  projectId: process.env.SANITY_ID as string,
+  projectId: 'sw0fgp2s',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool()],
